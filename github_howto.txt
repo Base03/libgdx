@@ -1,0 +1,19 @@
+push commited changes:
+   git push -u origin branch_name
+see remote/upstream:
+   git remote -v
+commit a change to the current branch
+   git commit -m "testing"
+add files to a commit:
+   git add files
+switch to a branch (-b creates it):
+   git checkout -b data_structures
+merge a branch:
+   git merge upstream/master
+fetch a branch:
+   git fetch upstream
+add a repo to sync:
+   git remote add upstream https://github.com/libgdx/libgdx.git
+view branches
+   git branch
+
